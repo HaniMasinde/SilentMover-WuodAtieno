@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background:white;
+    background:rgb(101, 58, 58);
     min-height:100vh;
 }
 header{
@@ -12,7 +12,7 @@ header{
     align-items:center;
     justify-content:space-between;
     height:120px;
-    background:blueviolet;
+    background:rgba(116, 91, 91, 0.502);
     border-radius:15px;
 }
 header h2{
@@ -43,7 +43,7 @@ footer{
     display:flex;
     flex-direction:column;
     height:100px;
-    background:blueviolet;
+    background:rgba(116, 91, 91, 0.502);
     padding:15px;
     border-radius:15px;
 }

@@ -32,8 +32,8 @@ regForm.addEventListener('submit', function (e) {
             isValid = false;
             return;
         }
-        if (username.length > 8) {
-            usernameError.textContent = ' must have at most 8 characters';
+        if (username.length > 10) {
+            usernameError.textContent = ' must have at most 10 characters';
             isValid = false;
             return;
         }
@@ -77,8 +77,8 @@ regForm.addEventListener('submit', function (e) {
             isValid = false;
             return;
         }
-        if (password.length > 6) {
-            passwordError.textContent = 'Password must be at most 6 characters';
+        if (password.length > 8) {
+            passwordError.textContent = 'Password must be at most 8 sscharacters';
             isValid = false;
             return;
         }

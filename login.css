@@ -17,7 +17,7 @@ body{
 .form-container{
     width:500px;
     height:500px;
-    border:2px solid black;
+    border:1px solid rgb(255, 255, 255);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -32,6 +32,7 @@ form .input-field{
     height:40px;
     margin-top:15px;
     position:relative;
+
 }
 form .input-field input{
     width:100%;
@@ -41,10 +42,10 @@ form .input-field input{
     border:none;
     outline:none;
     border-bottom:1px solid rgb(0, 0, 0);
-    box-shadow: 4px 8px 3px rgb(84, 83, 83);
+    border-radius:10px;
 }
 ::placeholder{
-    color:rgba(0, 0, 0, 0.655);
+    color:rgba(12, 165, 215, 0.475);
 }
 span{
     color:red;
@@ -54,9 +55,11 @@ i{
     bottom:3px;
     font-size:20px;
     left:90%;
+    color:rgb(128, 0, 102);
+    cursor:pointer;
 }
 .login{
-    margin-top:20px;
+    margin-top:10px;
     margin-bottom:6px;
     display:flex;
     justify-content:center;
@@ -68,6 +71,8 @@ i{
     border-radius:10px;
     font-size:22px;
     font-weight:550;
+    border:2px solid darkred;
+    cursor:pointer;
 }
 .rem{
     margin-bottom:7px;
@@ -98,7 +103,7 @@ footer p{
 }
 @media (max-width:760px){
     body{
-        background:linear-gradient(to top,rgb(225, 225, 60),rgb(114, 114, 209));
+        background:linear-gradient(to top,rgb(60, 72, 148),rgb(81, 35, 94));
         height:100dvh;
     }
     .form-container{
@@ -112,14 +117,14 @@ footer p{
 }
 @media (max-width:415px){
     .form-container{
-        width:320px;
+        width:325px;
         height:420px;
     }
     form h2{
         color:aqua;
     }
     form .input-field{
-        width:250px;
+        width:265px;
         height:35px;
         background:rgba(128, 128, 128, 0.282);
     }
