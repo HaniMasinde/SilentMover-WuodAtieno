@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(218, 224, 224);
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    margin-top:10%;
+}
+.skill-cont{
+    width:62vw;
+    height:89vh;
+    background:rgb(195, 196, 195);
+    box-shadow:-15px 0px 15px grey,
+    10px 0px 15px grey,
+    0px 10px 15px grey,
+    0px -10px 15px grey;
+}
+h2{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:2rem;
+}
+.skill-box{
+    margin-top:4%;
+    background:grey;
+    height:9%;
+    display:flex;
+    align-items:center;
+    width:95%;
+    margin-left:2%;
+    padding:5px;
+}
+.skill-box h3{
+    font-size:1.2rem;
+    font-weight:600;
+    color:rgb(102, 255, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.skill-box .skill{
+    width:90%;
+    background:white;
+    height:20%;
+    margin-left:2%;
+    position:relative;
+    border-radius:10px;
+
+}
+.skill-box .skill .skill-bar{
+    position:absolute;
+    width:90%;
+    height:100%;
+    background:green;
+    border-radius:inherit;
+}
+.skill-box .skill ::after{
+    content:"90";
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:blue;
+    margin-left:97%;
+    bottom:.7rem;
+    transform:rotate(45deg);
+}
+.skill-box .skill .cs{
+    width:70%;
+    position:relative;
+}
+.skill-box .skill .cs::after{
+    content:"70";
+    margin-left:97%;
+}
+.skill-box .skill .js{
+    width:30%;
+}
+.skill-box .skill .js::after{
+    content:"30";
+    margin-left:91%;
+}
+.skill-box .skill .node{
+    width:10%;
+}
+.skill-box .skill .node::after{
+    content:"10";
+    margin-left:78%;
+}
+.skill-box .skill .java{
+    width:12%;
+}
+.skill-box .skill .java::after{
+    content:"12";
+    margin-left:78%;
+}
+.skill-box .skill .python{
+    width:15%;
+}
+.skill-box .skill .python::after{
+    content:"15";
+    margin-left:83.8%;
+}
+
+footer{
+    display:flex;
+    flex-direction:column;
+    padding:15px;
+    margin-top:2%;
+}
+footer p{
+    text-align:center;
+    margin-bottom:0px;
+    font-size:20px;
+}
